@@ -1,0 +1,76 @@
+from datetime import date
+import pandas as pd
+from sqlalchemy import (
+    Column,
+    Date,
+    Integer,
+    Numeric,
+    String,
+    create_engine,
+    desc,
+    text,
+)
+from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.orm import sessionmaker
+
+# 1. Configuración de conexión a la base de datos PostgreSQL
+USER = "postgres"
+PASSWORD = "12345678"  # La contraseña asignada al usuario postgres
+HOST = "localhost"
+PORT = "5432"
+DB_NAME = "calificaciones_db"
+
+DATABASE_URL = (
+    f"postgresql+psycopg2://{USER}:{PASSWORD}@{HOST}:{PORT}/{DB_NAME}"
+)
+
+# 2. Creación de la conexión/engine de SQLAlchemy
+engine = create_engine(DATABASE_URL)
+
+# Declarar la base para los modelos
+Base = declarative_base()
+
+
+# 3. Definir la clase mapeada a la tabla 'calificaciones'
+class Calificaciones(Base):
+    __tablename__ = "calificaciones"
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    alumno_id = Column(Integer, nullable=False)
+    materia_id = Column(Integer, nullable=False)
+    calificacion = Column(Numeric(precision=5, scale=2))
+
+
+# Crear las tablas en la base de datos si no existieran
+Base.metadata.create_all(bind=engine)
+
+# 4. Crear la sesión para interactuar con la BD
+SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
+session = SessionLocal()
+
+# 5. Ejecutar la consulta SQLAlchemy
+mi_query = session.query(Calificaciones).filter(Calificaciones.materia_id == 5)
+
+# Cargar el resultado directamente a un DataFrame de Pandas
+df = pd.read_sql(mi_query.statement, con=engine)
+
+# Cerrar la sesión de la base de datos
+session.close()
+
+# 6. Cálculo de estadística descriptiva
+media = df["calificacion"].astype(float).mean()
+varianza = df["calificacion"].astype(float).var()
+desviacion_estandar = df["calificacion"].astype(float).std()
+
+# 7. Mostrar resultados en pantalla
+print("\n==================================================")
+print("     ESTADÍSTICAS DE LA MATERIA (ID: 5)")
+print("==================================================")
+print(f"Total de registros  : {len(df)}")
+print(f"Media (Promedio)    : {media:.2f}")
+print(f"Varianza            : {varianza:.2f}")
+print(f"Desviación Estándar : {desviacion_estandar:.2f}")
+print("==================================================\n")
+
+print("--- Primeros 5 registros del DataFrame ---")
+print(df.head())

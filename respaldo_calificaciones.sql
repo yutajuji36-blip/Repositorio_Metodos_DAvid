@@ -1,0 +1,866 @@
+--
+-- PostgreSQL database dump
+--
+
+\restrict WRRDGm58fDl6w8JQhEppMn8Pa4WS5xoFNcrhG3M2mf9hpZuHQjzcSZCxgCFXFhi
+
+-- Dumped from database version 17.11 (Debian 17.11-0+deb13u1)
+-- Dumped by pg_dump version 17.11 (Debian 17.11-0+deb13u1)
+
+SET statement_timeout = 0;
+SET lock_timeout = 0;
+SET idle_in_transaction_session_timeout = 0;
+SET transaction_timeout = 0;
+SET client_encoding = 'UTF8';
+SET standard_conforming_strings = on;
+SELECT pg_catalog.set_config('search_path', '', false);
+SET check_function_bodies = false;
+SET xmloption = content;
+SET client_min_messages = warning;
+SET row_security = off;
+
+SET default_tablespace = '';
+
+SET default_table_access_method = heap;
+
+--
+-- Name: alumnos; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.alumnos (
+    id integer NOT NULL,
+    nombre character varying(50) NOT NULL,
+    apellido character varying(50) NOT NULL,
+    numero_control character varying(20) NOT NULL
+);
+
+
+ALTER TABLE public.alumnos OWNER TO postgres;
+
+--
+-- Name: alumnos_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
+--
+
+CREATE SEQUENCE public.alumnos_id_seq
+    AS integer
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+ALTER SEQUENCE public.alumnos_id_seq OWNER TO postgres;
+
+--
+-- Name: alumnos_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
+--
+
+ALTER SEQUENCE public.alumnos_id_seq OWNED BY public.alumnos.id;
+
+
+--
+-- Name: calificaciones; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.calificaciones (
+    id integer NOT NULL,
+    alumno_id integer,
+    materia_id integer,
+    calificacion numeric(5,2),
+    CONSTRAINT calificaciones_calificacion_check CHECK (((calificacion >= (0)::numeric) AND (calificacion <= (100)::numeric)))
+);
+
+
+ALTER TABLE public.calificaciones OWNER TO postgres;
+
+--
+-- Name: calificaciones_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
+--
+
+CREATE SEQUENCE public.calificaciones_id_seq
+    AS integer
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+ALTER SEQUENCE public.calificaciones_id_seq OWNER TO postgres;
+
+--
+-- Name: calificaciones_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
+--
+
+ALTER SEQUENCE public.calificaciones_id_seq OWNED BY public.calificaciones.id;
+
+
+--
+-- Name: materias; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.materias (
+    id integer NOT NULL,
+    nombre_materia character varying(100) NOT NULL,
+    semestre integer NOT NULL
+);
+
+
+ALTER TABLE public.materias OWNER TO postgres;
+
+--
+-- Name: materias_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
+--
+
+CREATE SEQUENCE public.materias_id_seq
+    AS integer
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+ALTER SEQUENCE public.materias_id_seq OWNER TO postgres;
+
+--
+-- Name: materias_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
+--
+
+ALTER SEQUENCE public.materias_id_seq OWNED BY public.materias.id;
+
+
+--
+-- Name: alumnos id; Type: DEFAULT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.alumnos ALTER COLUMN id SET DEFAULT nextval('public.alumnos_id_seq'::regclass);
+
+
+--
+-- Name: calificaciones id; Type: DEFAULT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.calificaciones ALTER COLUMN id SET DEFAULT nextval('public.calificaciones_id_seq'::regclass);
+
+
+--
+-- Name: materias id; Type: DEFAULT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.materias ALTER COLUMN id SET DEFAULT nextval('public.materias_id_seq'::regclass);
+
+
+--
+-- Data for Name: alumnos; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.alumnos (id, nombre, apellido, numero_control) FROM stdin;
+1	Carlos	Hernández	CTRL-0001
+2	María	Gómez	CTRL-0002
+3	José	Martínez	CTRL-0003
+4	Daniel	Pérez	CTRL-0004
+5	Ricardo	González	CTRL-0005
+6	Valeria	Cruz	CTRL-0006
+7	Ana	López	CTRL-0007
+8	Gabriela	Ruiz	CTRL-0008
+9	Luis	González	CTRL-0009
+10	Valeria	Hernández	CTRL-0010
+11	Alejandro	Gómez	CTRL-0011
+12	Jorge	Jiménez	CTRL-0012
+13	Jorge	López	CTRL-0013
+14	Carlos	Torres	CTRL-0014
+15	José	Martínez	CTRL-0015
+16	Diana	Morales	CTRL-0016
+17	Carlos	Reyes	CTRL-0017
+18	Ana	Cruz	CTRL-0018
+19	María	Martínez	CTRL-0019
+20	María	Cruz	CTRL-0020
+21	Ana	Martínez	CTRL-0021
+22	Ana	González	CTRL-0022
+23	Sofía	Pérez	CTRL-0023
+24	Carmen	Hernández	CTRL-0024
+25	Carmen	Cruz	CTRL-0025
+26	Fernando	Martínez	CTRL-0026
+27	Alejandro	Martínez	CTRL-0027
+28	Luis	Ramírez	CTRL-0028
+29	José	González	CTRL-0029
+30	Carmen	Martínez	CTRL-0030
+31	Daniel	López	CTRL-0031
+32	José	Jiménez	CTRL-0032
+33	Sofía	Reyes	CTRL-0033
+34	Jorge	Gómez	CTRL-0034
+35	Carmen	Jiménez	CTRL-0035
+36	Valeria	Pérez	CTRL-0036
+37	Carmen	Flores	CTRL-0037
+38	Carmen	Gómez	CTRL-0038
+39	María	Ramírez	CTRL-0039
+40	Daniel	Morales	CTRL-0040
+41	Carlos	Cruz	CTRL-0041
+42	María	Cruz	CTRL-0042
+43	Sofía	Torres	CTRL-0043
+44	Alejandro	Cruz	CTRL-0044
+45	Fernando	Ramírez	CTRL-0045
+46	Jorge	Gómez	CTRL-0046
+47	Ricardo	Pérez	CTRL-0047
+48	Carmen	Gómez	CTRL-0048
+49	Diana	Reyes	CTRL-0049
+50	Ricardo	Morales	CTRL-0050
+51	Alejandro	López	CTRL-0051
+52	Daniel	González	CTRL-0052
+53	María	Rodríguez	CTRL-0053
+54	María	Hernández	CTRL-0054
+55	Sofía	López	CTRL-0055
+56	Sofía	Reyes	CTRL-0056
+57	Ana	Cruz	CTRL-0057
+58	José	Pérez	CTRL-0058
+59	Valeria	Pérez	CTRL-0059
+60	Ricardo	Martínez	CTRL-0060
+61	Carmen	Ruiz	CTRL-0061
+62	María	Ruiz	CTRL-0062
+63	Sofía	Morales	CTRL-0063
+64	Luis	Rodríguez	CTRL-0064
+65	Jorge	Jiménez	CTRL-0065
+66	Carlos	Martínez	CTRL-0066
+67	Gabriela	López	CTRL-0067
+68	Carlos	Hernández	CTRL-0068
+69	Sofía	Torres	CTRL-0069
+70	María	Ruiz	CTRL-0070
+71	Luis	Ramírez	CTRL-0071
+72	Valeria	Martínez	CTRL-0072
+73	Alejandro	Rodríguez	CTRL-0073
+74	Carmen	González	CTRL-0074
+75	Luis	Gómez	CTRL-0075
+76	Luis	Ruiz	CTRL-0076
+77	Gabriela	Reyes	CTRL-0077
+78	Fernando	Torres	CTRL-0078
+79	Carmen	Cruz	CTRL-0079
+80	Sofía	Hernández	CTRL-0080
+81	Carmen	Cruz	CTRL-0081
+82	Luis	Cruz	CTRL-0082
+83	Ricardo	Gómez	CTRL-0083
+84	Sofía	Rodríguez	CTRL-0084
+85	Ana	Ruiz	CTRL-0085
+86	Carmen	Morales	CTRL-0086
+87	Alejandro	Ruiz	CTRL-0087
+88	Gabriela	Ruiz	CTRL-0088
+89	Fernando	Jiménez	CTRL-0089
+90	Jorge	Gómez	CTRL-0090
+91	Fernando	Cruz	CTRL-0091
+92	Luis	López	CTRL-0092
+93	Sofía	Martínez	CTRL-0093
+94	Daniel	Cruz	CTRL-0094
+95	Ana	Cruz	CTRL-0095
+96	Ana	Cruz	CTRL-0096
+97	María	Hernández	CTRL-0097
+98	Ricardo	Reyes	CTRL-0098
+99	Valeria	Pérez	CTRL-0099
+100	María	Morales	CTRL-0100
+\.
+
+
+--
+-- Data for Name: calificaciones; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.calificaciones (id, alumno_id, materia_id, calificacion) FROM stdin;
+1	1	1	82.90
+2	2	1	68.73
+3	3	1	88.16
+4	4	1	97.92
+5	5	1	74.08
+6	6	1	65.32
+7	7	1	99.46
+8	8	1	66.13
+9	9	1	99.65
+10	10	1	78.21
+11	11	1	90.97
+12	12	1	84.31
+13	13	1	77.20
+14	14	1	91.32
+15	15	1	69.05
+16	16	1	89.18
+17	17	1	95.41
+18	18	1	88.61
+19	19	1	77.36
+20	20	1	89.38
+21	21	1	98.88
+22	22	1	99.72
+23	23	1	77.38
+24	24	1	76.76
+25	25	1	88.50
+26	26	1	72.97
+27	27	1	72.83
+28	28	1	88.89
+29	29	1	94.38
+30	30	1	77.51
+31	31	1	91.88
+32	32	1	76.79
+33	33	1	93.64
+34	34	1	60.69
+35	35	1	87.59
+36	36	1	84.11
+37	37	1	71.56
+38	38	1	98.77
+39	39	1	69.57
+40	40	1	67.17
+41	41	1	86.51
+42	42	1	60.63
+43	43	1	66.11
+44	44	1	95.20
+45	45	1	99.49
+46	46	1	87.29
+47	47	1	89.62
+48	48	1	62.36
+49	49	1	77.42
+50	50	1	97.91
+51	51	1	85.56
+52	52	1	80.86
+53	53	1	99.22
+54	54	1	62.36
+55	55	1	82.35
+56	56	1	99.88
+57	57	1	67.93
+58	58	1	97.95
+59	59	1	98.20
+60	60	1	93.14
+61	61	1	79.84
+62	62	1	77.42
+63	63	1	80.72
+64	64	1	72.61
+65	65	1	77.98
+66	66	1	71.20
+67	67	1	94.84
+68	68	1	84.27
+69	69	1	86.25
+70	70	1	96.36
+71	71	1	64.44
+72	72	1	63.69
+73	73	1	68.96
+74	74	1	62.46
+75	75	1	94.52
+76	76	1	80.51
+77	77	1	63.42
+78	78	1	91.14
+79	79	1	87.48
+80	80	1	83.57
+81	81	1	94.87
+82	82	1	67.20
+83	83	1	87.98
+84	84	1	98.89
+85	85	1	89.28
+86	86	1	73.41
+87	87	1	98.70
+88	88	1	64.81
+89	89	1	93.14
+90	90	1	93.31
+91	91	1	94.35
+92	92	1	66.56
+93	93	1	73.42
+94	94	1	69.47
+95	95	1	72.24
+96	96	1	78.96
+97	97	1	94.31
+98	98	1	60.89
+99	99	1	85.97
+100	100	1	86.68
+101	1	2	98.78
+102	2	2	84.27
+103	3	2	90.51
+104	4	2	96.49
+105	5	2	99.36
+106	6	2	65.74
+107	7	2	83.20
+108	8	2	61.68
+109	9	2	99.57
+110	10	2	87.35
+111	11	2	71.40
+112	12	2	81.61
+113	13	2	97.02
+114	14	2	94.03
+115	15	2	79.89
+116	16	2	84.95
+117	17	2	87.18
+118	18	2	75.44
+119	19	2	67.54
+120	20	2	75.73
+121	21	2	94.26
+122	22	2	74.46
+123	23	2	90.59
+124	24	2	65.99
+125	25	2	93.60
+126	26	2	88.86
+127	27	2	77.19
+128	28	2	65.50
+129	29	2	81.13
+130	30	2	83.58
+131	31	2	77.95
+132	32	2	65.98
+133	33	2	88.56
+134	34	2	70.30
+135	35	2	67.49
+136	36	2	67.10
+137	37	2	88.90
+138	38	2	87.66
+139	39	2	63.33
+140	40	2	70.38
+141	41	2	88.89
+142	42	2	80.56
+143	43	2	62.55
+144	44	2	64.71
+145	45	2	77.60
+146	46	2	62.85
+147	47	2	95.82
+148	48	2	88.72
+149	49	2	88.29
+150	50	2	68.41
+151	51	2	71.48
+152	52	2	60.13
+153	53	2	84.59
+154	54	2	74.49
+155	55	2	99.68
+156	56	2	77.95
+157	57	2	78.24
+158	58	2	86.29
+159	59	2	91.27
+160	60	2	64.06
+161	61	2	86.87
+162	62	2	94.91
+163	63	2	64.44
+164	64	2	68.55
+165	65	2	77.12
+166	66	2	69.85
+167	67	2	66.29
+168	68	2	69.04
+169	69	2	64.92
+170	70	2	91.11
+171	71	2	71.12
+172	72	2	88.75
+173	73	2	96.74
+174	74	2	87.13
+175	75	2	70.26
+176	76	2	81.21
+177	77	2	74.46
+178	78	2	97.79
+179	79	2	91.68
+180	80	2	68.45
+181	81	2	89.60
+182	82	2	66.26
+183	83	2	68.74
+184	84	2	66.11
+185	85	2	68.83
+186	86	2	95.00
+187	87	2	79.82
+188	88	2	78.94
+189	89	2	64.85
+190	90	2	87.18
+191	91	2	94.48
+192	92	2	94.78
+193	93	2	83.18
+194	94	2	95.14
+195	95	2	83.75
+196	96	2	93.19
+197	97	2	88.29
+198	98	2	84.17
+199	99	2	78.55
+200	100	2	66.50
+201	1	3	68.60
+202	2	3	77.50
+203	3	3	84.74
+204	4	3	82.06
+205	5	3	79.87
+206	6	3	64.67
+207	7	3	74.13
+208	8	3	66.66
+209	9	3	63.63
+210	10	3	74.10
+211	11	3	63.04
+212	12	3	77.62
+213	13	3	89.13
+214	14	3	67.20
+215	15	3	63.39
+216	16	3	90.65
+217	17	3	75.92
+218	18	3	90.05
+219	19	3	61.39
+220	20	3	83.28
+221	21	3	93.62
+222	22	3	82.37
+223	23	3	72.67
+224	24	3	74.17
+225	25	3	83.63
+226	26	3	89.32
+227	27	3	93.42
+228	28	3	88.20
+229	29	3	89.57
+230	30	3	74.16
+231	31	3	63.29
+232	32	3	70.39
+233	33	3	79.24
+234	34	3	65.48
+235	35	3	63.16
+236	36	3	61.61
+237	37	3	99.64
+238	38	3	75.16
+239	39	3	84.05
+240	40	3	61.39
+241	41	3	66.58
+242	42	3	90.74
+243	43	3	73.18
+244	44	3	68.54
+245	45	3	85.85
+246	46	3	94.63
+247	47	3	63.84
+248	48	3	96.19
+249	49	3	92.06
+250	50	3	94.33
+251	51	3	69.03
+252	52	3	90.16
+253	53	3	92.97
+254	54	3	99.98
+255	55	3	87.08
+256	56	3	81.09
+257	57	3	70.95
+258	58	3	69.51
+259	59	3	64.51
+260	60	3	77.49
+261	61	3	75.23
+262	62	3	70.25
+263	63	3	75.73
+264	64	3	94.99
+265	65	3	61.89
+266	66	3	99.21
+267	67	3	80.91
+268	68	3	96.07
+269	69	3	80.73
+270	70	3	60.84
+271	71	3	86.78
+272	72	3	75.67
+273	73	3	76.63
+274	74	3	86.83
+275	75	3	98.07
+276	76	3	93.04
+277	77	3	95.95
+278	78	3	95.34
+279	79	3	81.56
+280	80	3	88.50
+281	81	3	71.80
+282	82	3	87.23
+283	83	3	66.28
+284	84	3	73.72
+285	85	3	88.36
+286	86	3	94.43
+287	87	3	88.77
+288	88	3	70.12
+289	89	3	89.67
+290	90	3	97.84
+291	91	3	86.47
+292	92	3	73.68
+293	93	3	90.80
+294	94	3	72.35
+295	95	3	62.61
+296	96	3	86.21
+297	97	3	64.17
+298	98	3	84.61
+299	99	3	77.02
+300	100	3	65.39
+301	1	4	74.52
+302	2	4	82.61
+303	3	4	99.80
+304	4	4	98.19
+305	5	4	88.57
+306	6	4	63.90
+307	7	4	65.01
+308	8	4	75.94
+309	9	4	66.34
+310	10	4	81.59
+311	11	4	74.41
+312	12	4	89.90
+313	13	4	82.28
+314	14	4	68.72
+315	15	4	75.77
+316	16	4	88.74
+317	17	4	84.61
+318	18	4	73.50
+319	19	4	78.20
+320	20	4	99.64
+321	21	4	60.40
+322	22	4	66.63
+323	23	4	62.55
+324	24	4	86.38
+325	25	4	81.81
+326	26	4	61.75
+327	27	4	78.20
+328	28	4	88.22
+329	29	4	62.06
+330	30	4	75.51
+331	31	4	67.72
+332	32	4	73.21
+333	33	4	95.57
+334	34	4	72.42
+335	35	4	91.44
+336	36	4	79.07
+337	37	4	69.30
+338	38	4	72.50
+339	39	4	80.14
+340	40	4	70.88
+341	41	4	90.63
+342	42	4	77.94
+343	43	4	62.16
+344	44	4	65.43
+345	45	4	96.27
+346	46	4	91.89
+347	47	4	73.01
+348	48	4	82.81
+349	49	4	73.52
+350	50	4	98.23
+351	51	4	92.99
+352	52	4	63.99
+353	53	4	98.59
+354	54	4	93.36
+355	55	4	98.99
+356	56	4	96.97
+357	57	4	77.03
+358	58	4	91.31
+359	59	4	66.92
+360	60	4	61.12
+361	61	4	94.93
+362	62	4	76.22
+363	63	4	87.26
+364	64	4	63.68
+365	65	4	81.77
+366	66	4	71.79
+367	67	4	82.72
+368	68	4	64.38
+369	69	4	81.40
+370	70	4	81.00
+371	71	4	61.67
+372	72	4	70.22
+373	73	4	70.41
+374	74	4	62.63
+375	75	4	66.46
+376	76	4	82.17
+377	77	4	78.12
+378	78	4	95.03
+379	79	4	70.89
+380	80	4	83.73
+381	81	4	60.19
+382	82	4	63.52
+383	83	4	70.91
+384	84	4	85.41
+385	85	4	77.32
+386	86	4	92.35
+387	87	4	94.11
+388	88	4	95.26
+389	89	4	70.84
+390	90	4	62.91
+391	91	4	91.05
+392	92	4	79.84
+393	93	4	61.91
+394	94	4	64.40
+395	95	4	88.94
+396	96	4	99.25
+397	97	4	97.55
+398	98	4	68.12
+399	99	4	89.81
+400	100	4	83.41
+401	1	5	61.63
+402	2	5	99.50
+403	3	5	70.07
+404	4	5	92.72
+405	5	5	87.78
+406	6	5	69.45
+407	7	5	81.94
+408	8	5	87.67
+409	9	5	96.36
+410	10	5	96.71
+411	11	5	71.20
+412	12	5	79.43
+413	13	5	64.94
+414	14	5	85.91
+415	15	5	87.63
+416	16	5	96.60
+417	17	5	75.57
+418	18	5	79.45
+419	19	5	96.09
+420	20	5	85.68
+421	21	5	75.07
+422	22	5	79.74
+423	23	5	81.51
+424	24	5	78.47
+425	25	5	91.79
+426	26	5	73.98
+427	27	5	95.96
+428	28	5	72.76
+429	29	5	84.61
+430	30	5	68.38
+431	31	5	76.20
+432	32	5	66.95
+433	33	5	90.11
+434	34	5	73.62
+435	35	5	67.28
+436	36	5	83.43
+437	37	5	79.48
+438	38	5	69.64
+439	39	5	62.90
+440	40	5	71.39
+441	41	5	94.55
+442	42	5	76.00
+443	43	5	90.34
+444	44	5	64.94
+445	45	5	63.52
+446	46	5	88.23
+447	47	5	76.42
+448	48	5	60.33
+449	49	5	66.78
+450	50	5	95.19
+451	51	5	62.68
+452	52	5	79.02
+453	53	5	86.75
+454	54	5	87.59
+455	55	5	87.12
+456	56	5	85.66
+457	57	5	73.77
+458	58	5	78.34
+459	59	5	88.70
+460	60	5	91.00
+461	61	5	97.57
+462	62	5	90.24
+463	63	5	99.01
+464	64	5	97.45
+465	65	5	64.52
+466	66	5	74.83
+467	67	5	99.73
+468	68	5	66.23
+469	69	5	86.63
+470	70	5	89.61
+471	71	5	85.40
+472	72	5	91.68
+473	73	5	68.28
+474	74	5	63.82
+475	75	5	88.48
+476	76	5	92.80
+477	77	5	76.76
+478	78	5	73.40
+479	79	5	83.81
+480	80	5	97.90
+481	81	5	75.74
+482	82	5	89.13
+483	83	5	61.93
+484	84	5	95.77
+485	85	5	86.92
+486	86	5	89.09
+487	87	5	84.50
+488	88	5	77.14
+489	89	5	72.87
+490	90	5	75.19
+491	91	5	79.78
+492	92	5	90.98
+493	93	5	66.86
+494	94	5	95.42
+495	95	5	66.04
+496	96	5	64.20
+497	97	5	70.26
+498	98	5	78.44
+499	99	5	65.92
+500	100	5	75.18
+\.
+
+
+--
+-- Data for Name: materias; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.materias (id, nombre_materia, semestre) FROM stdin;
+1	Sistemas Operativos	4
+2	Seguridad Informática	6
+3	Programación Web	5
+4	Bases de Datos	3
+5	Inteligencia Artificial	7
+\.
+
+
+--
+-- Name: alumnos_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.alumnos_id_seq', 100, true);
+
+
+--
+-- Name: calificaciones_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.calificaciones_id_seq', 500, true);
+
+
+--
+-- Name: materias_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.materias_id_seq', 5, true);
+
+
+--
+-- Name: alumnos alumnos_numero_control_key; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.alumnos
+    ADD CONSTRAINT alumnos_numero_control_key UNIQUE (numero_control);
+
+
+--
+-- Name: alumnos alumnos_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.alumnos
+    ADD CONSTRAINT alumnos_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: calificaciones calificaciones_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.calificaciones
+    ADD CONSTRAINT calificaciones_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: materias materias_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.materias
+    ADD CONSTRAINT materias_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: calificaciones un_alumno_materia; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.calificaciones
+    ADD CONSTRAINT un_alumno_materia UNIQUE (alumno_id, materia_id);
+
+
+--
+-- Name: calificaciones calificaciones_alumno_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.calificaciones
+    ADD CONSTRAINT calificaciones_alumno_id_fkey FOREIGN KEY (alumno_id) REFERENCES public.alumnos(id) ON DELETE CASCADE;
+
+
+--
+-- Name: calificaciones calificaciones_materia_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.calificaciones
+    ADD CONSTRAINT calificaciones_materia_id_fkey FOREIGN KEY (materia_id) REFERENCES public.materias(id) ON DELETE CASCADE;
+
+
+--
+-- PostgreSQL database dump complete
+--
+
+\unrestrict WRRDGm58fDl6w8JQhEppMn8Pa4WS5xoFNcrhG3M2mf9hpZuHQjzcSZCxgCFXFhi
+

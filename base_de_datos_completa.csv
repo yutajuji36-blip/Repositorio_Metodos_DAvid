@@ -1,0 +1,501 @@
+nombre,apellido,numero_control,nombre_materia,calificacion
+Carlos,Hernández,CTRL-0001,Sistemas Operativos,82.90
+María,Gómez,CTRL-0002,Sistemas Operativos,68.73
+José,Martínez,CTRL-0003,Sistemas Operativos,88.16
+Daniel,Pérez,CTRL-0004,Sistemas Operativos,97.92
+Ricardo,González,CTRL-0005,Sistemas Operativos,74.08
+Valeria,Cruz,CTRL-0006,Sistemas Operativos,65.32
+Ana,López,CTRL-0007,Sistemas Operativos,99.46
+Gabriela,Ruiz,CTRL-0008,Sistemas Operativos,66.13
+Luis,González,CTRL-0009,Sistemas Operativos,99.65
+Valeria,Hernández,CTRL-0010,Sistemas Operativos,78.21
+Alejandro,Gómez,CTRL-0011,Sistemas Operativos,90.97
+Jorge,Jiménez,CTRL-0012,Sistemas Operativos,84.31
+Jorge,López,CTRL-0013,Sistemas Operativos,77.20
+Carlos,Torres,CTRL-0014,Sistemas Operativos,91.32
+José,Martínez,CTRL-0015,Sistemas Operativos,69.05
+Diana,Morales,CTRL-0016,Sistemas Operativos,89.18
+Carlos,Reyes,CTRL-0017,Sistemas Operativos,95.41
+Ana,Cruz,CTRL-0018,Sistemas Operativos,88.61
+María,Martínez,CTRL-0019,Sistemas Operativos,77.36
+María,Cruz,CTRL-0020,Sistemas Operativos,89.38
+Ana,Martínez,CTRL-0021,Sistemas Operativos,98.88
+Ana,González,CTRL-0022,Sistemas Operativos,99.72
+Sofía,Pérez,CTRL-0023,Sistemas Operativos,77.38
+Carmen,Hernández,CTRL-0024,Sistemas Operativos,76.76
+Carmen,Cruz,CTRL-0025,Sistemas Operativos,88.50
+Fernando,Martínez,CTRL-0026,Sistemas Operativos,72.97
+Alejandro,Martínez,CTRL-0027,Sistemas Operativos,72.83
+Luis,Ramírez,CTRL-0028,Sistemas Operativos,88.89
+José,González,CTRL-0029,Sistemas Operativos,94.38
+Carmen,Martínez,CTRL-0030,Sistemas Operativos,77.51
+Daniel,López,CTRL-0031,Sistemas Operativos,91.88
+José,Jiménez,CTRL-0032,Sistemas Operativos,76.79
+Sofía,Reyes,CTRL-0033,Sistemas Operativos,93.64
+Jorge,Gómez,CTRL-0034,Sistemas Operativos,60.69
+Carmen,Jiménez,CTRL-0035,Sistemas Operativos,87.59
+Valeria,Pérez,CTRL-0036,Sistemas Operativos,84.11
+Carmen,Flores,CTRL-0037,Sistemas Operativos,71.56
+Carmen,Gómez,CTRL-0038,Sistemas Operativos,98.77
+María,Ramírez,CTRL-0039,Sistemas Operativos,69.57
+Daniel,Morales,CTRL-0040,Sistemas Operativos,67.17
+Carlos,Cruz,CTRL-0041,Sistemas Operativos,86.51
+María,Cruz,CTRL-0042,Sistemas Operativos,60.63
+Sofía,Torres,CTRL-0043,Sistemas Operativos,66.11
+Alejandro,Cruz,CTRL-0044,Sistemas Operativos,95.20
+Fernando,Ramírez,CTRL-0045,Sistemas Operativos,99.49
+Jorge,Gómez,CTRL-0046,Sistemas Operativos,87.29
+Ricardo,Pérez,CTRL-0047,Sistemas Operativos,89.62
+Carmen,Gómez,CTRL-0048,Sistemas Operativos,62.36
+Diana,Reyes,CTRL-0049,Sistemas Operativos,77.42
+Ricardo,Morales,CTRL-0050,Sistemas Operativos,97.91
+Alejandro,López,CTRL-0051,Sistemas Operativos,85.56
+Daniel,González,CTRL-0052,Sistemas Operativos,80.86
+María,Rodríguez,CTRL-0053,Sistemas Operativos,99.22
+María,Hernández,CTRL-0054,Sistemas Operativos,62.36
+Sofía,López,CTRL-0055,Sistemas Operativos,82.35
+Sofía,Reyes,CTRL-0056,Sistemas Operativos,99.88
+Ana,Cruz,CTRL-0057,Sistemas Operativos,67.93
+José,Pérez,CTRL-0058,Sistemas Operativos,97.95
+Valeria,Pérez,CTRL-0059,Sistemas Operativos,98.20
+Ricardo,Martínez,CTRL-0060,Sistemas Operativos,93.14
+Carmen,Ruiz,CTRL-0061,Sistemas Operativos,79.84
+María,Ruiz,CTRL-0062,Sistemas Operativos,77.42
+Sofía,Morales,CTRL-0063,Sistemas Operativos,80.72
+Luis,Rodríguez,CTRL-0064,Sistemas Operativos,72.61
+Jorge,Jiménez,CTRL-0065,Sistemas Operativos,77.98
+Carlos,Martínez,CTRL-0066,Sistemas Operativos,71.20
+Gabriela,López,CTRL-0067,Sistemas Operativos,94.84
+Carlos,Hernández,CTRL-0068,Sistemas Operativos,84.27
+Sofía,Torres,CTRL-0069,Sistemas Operativos,86.25
+María,Ruiz,CTRL-0070,Sistemas Operativos,96.36
+Luis,Ramírez,CTRL-0071,Sistemas Operativos,64.44
+Valeria,Martínez,CTRL-0072,Sistemas Operativos,63.69
+Alejandro,Rodríguez,CTRL-0073,Sistemas Operativos,68.96
+Carmen,González,CTRL-0074,Sistemas Operativos,62.46
+Luis,Gómez,CTRL-0075,Sistemas Operativos,94.52
+Luis,Ruiz,CTRL-0076,Sistemas Operativos,80.51
+Gabriela,Reyes,CTRL-0077,Sistemas Operativos,63.42
+Fernando,Torres,CTRL-0078,Sistemas Operativos,91.14
+Carmen,Cruz,CTRL-0079,Sistemas Operativos,87.48
+Sofía,Hernández,CTRL-0080,Sistemas Operativos,83.57
+Carmen,Cruz,CTRL-0081,Sistemas Operativos,94.87
+Luis,Cruz,CTRL-0082,Sistemas Operativos,67.20
+Ricardo,Gómez,CTRL-0083,Sistemas Operativos,87.98
+Sofía,Rodríguez,CTRL-0084,Sistemas Operativos,98.89
+Ana,Ruiz,CTRL-0085,Sistemas Operativos,89.28
+Carmen,Morales,CTRL-0086,Sistemas Operativos,73.41
+Alejandro,Ruiz,CTRL-0087,Sistemas Operativos,98.70
+Gabriela,Ruiz,CTRL-0088,Sistemas Operativos,64.81
+Fernando,Jiménez,CTRL-0089,Sistemas Operativos,93.14
+Jorge,Gómez,CTRL-0090,Sistemas Operativos,93.31
+Fernando,Cruz,CTRL-0091,Sistemas Operativos,94.35
+Luis,López,CTRL-0092,Sistemas Operativos,66.56
+Sofía,Martínez,CTRL-0093,Sistemas Operativos,73.42
+Daniel,Cruz,CTRL-0094,Sistemas Operativos,69.47
+Ana,Cruz,CTRL-0095,Sistemas Operativos,72.24
+Ana,Cruz,CTRL-0096,Sistemas Operativos,78.96
+María,Hernández,CTRL-0097,Sistemas Operativos,94.31
+Ricardo,Reyes,CTRL-0098,Sistemas Operativos,60.89
+Valeria,Pérez,CTRL-0099,Sistemas Operativos,85.97
+María,Morales,CTRL-0100,Sistemas Operativos,86.68
+Carlos,Hernández,CTRL-0001,Seguridad Informática,98.78
+María,Gómez,CTRL-0002,Seguridad Informática,84.27
+José,Martínez,CTRL-0003,Seguridad Informática,90.51
+Daniel,Pérez,CTRL-0004,Seguridad Informática,96.49
+Ricardo,González,CTRL-0005,Seguridad Informática,99.36
+Valeria,Cruz,CTRL-0006,Seguridad Informática,65.74
+Ana,López,CTRL-0007,Seguridad Informática,83.20
+Gabriela,Ruiz,CTRL-0008,Seguridad Informática,61.68
+Luis,González,CTRL-0009,Seguridad Informática,99.57
+Valeria,Hernández,CTRL-0010,Seguridad Informática,87.35
+Alejandro,Gómez,CTRL-0011,Seguridad Informática,71.40
+Jorge,Jiménez,CTRL-0012,Seguridad Informática,81.61
+Jorge,López,CTRL-0013,Seguridad Informática,97.02
+Carlos,Torres,CTRL-0014,Seguridad Informática,94.03
+José,Martínez,CTRL-0015,Seguridad Informática,79.89
+Diana,Morales,CTRL-0016,Seguridad Informática,84.95
+Carlos,Reyes,CTRL-0017,Seguridad Informática,87.18
+Ana,Cruz,CTRL-0018,Seguridad Informática,75.44
+María,Martínez,CTRL-0019,Seguridad Informática,67.54
+María,Cruz,CTRL-0020,Seguridad Informática,75.73
+Ana,Martínez,CTRL-0021,Seguridad Informática,94.26
+Ana,González,CTRL-0022,Seguridad Informática,74.46
+Sofía,Pérez,CTRL-0023,Seguridad Informática,90.59
+Carmen,Hernández,CTRL-0024,Seguridad Informática,65.99
+Carmen,Cruz,CTRL-0025,Seguridad Informática,93.60
+Fernando,Martínez,CTRL-0026,Seguridad Informática,88.86
+Alejandro,Martínez,CTRL-0027,Seguridad Informática,77.19
+Luis,Ramírez,CTRL-0028,Seguridad Informática,65.50
+José,González,CTRL-0029,Seguridad Informática,81.13
+Carmen,Martínez,CTRL-0030,Seguridad Informática,83.58
+Daniel,López,CTRL-0031,Seguridad Informática,77.95
+José,Jiménez,CTRL-0032,Seguridad Informática,65.98
+Sofía,Reyes,CTRL-0033,Seguridad Informática,88.56
+Jorge,Gómez,CTRL-0034,Seguridad Informática,70.30
+Carmen,Jiménez,CTRL-0035,Seguridad Informática,67.49
+Valeria,Pérez,CTRL-0036,Seguridad Informática,67.10
+Carmen,Flores,CTRL-0037,Seguridad Informática,88.90
+Carmen,Gómez,CTRL-0038,Seguridad Informática,87.66
+María,Ramírez,CTRL-0039,Seguridad Informática,63.33
+Daniel,Morales,CTRL-0040,Seguridad Informática,70.38
+Carlos,Cruz,CTRL-0041,Seguridad Informática,88.89
+María,Cruz,CTRL-0042,Seguridad Informática,80.56
+Sofía,Torres,CTRL-0043,Seguridad Informática,62.55
+Alejandro,Cruz,CTRL-0044,Seguridad Informática,64.71
+Fernando,Ramírez,CTRL-0045,Seguridad Informática,77.60
+Jorge,Gómez,CTRL-0046,Seguridad Informática,62.85
+Ricardo,Pérez,CTRL-0047,Seguridad Informática,95.82
+Carmen,Gómez,CTRL-0048,Seguridad Informática,88.72
+Diana,Reyes,CTRL-0049,Seguridad Informática,88.29
+Ricardo,Morales,CTRL-0050,Seguridad Informática,68.41
+Alejandro,López,CTRL-0051,Seguridad Informática,71.48
+Daniel,González,CTRL-0052,Seguridad Informática,60.13
+María,Rodríguez,CTRL-0053,Seguridad Informática,84.59
+María,Hernández,CTRL-0054,Seguridad Informática,74.49
+Sofía,López,CTRL-0055,Seguridad Informática,99.68
+Sofía,Reyes,CTRL-0056,Seguridad Informática,77.95
+Ana,Cruz,CTRL-0057,Seguridad Informática,78.24
+José,Pérez,CTRL-0058,Seguridad Informática,86.29
+Valeria,Pérez,CTRL-0059,Seguridad Informática,91.27
+Ricardo,Martínez,CTRL-0060,Seguridad Informática,64.06
+Carmen,Ruiz,CTRL-0061,Seguridad Informática,86.87
+María,Ruiz,CTRL-0062,Seguridad Informática,94.91
+Sofía,Morales,CTRL-0063,Seguridad Informática,64.44
+Luis,Rodríguez,CTRL-0064,Seguridad Informática,68.55
+Jorge,Jiménez,CTRL-0065,Seguridad Informática,77.12
+Carlos,Martínez,CTRL-0066,Seguridad Informática,69.85
+Gabriela,López,CTRL-0067,Seguridad Informática,66.29
+Carlos,Hernández,CTRL-0068,Seguridad Informática,69.04
+Sofía,Torres,CTRL-0069,Seguridad Informática,64.92
+María,Ruiz,CTRL-0070,Seguridad Informática,91.11
+Luis,Ramírez,CTRL-0071,Seguridad Informática,71.12
+Valeria,Martínez,CTRL-0072,Seguridad Informática,88.75
+Alejandro,Rodríguez,CTRL-0073,Seguridad Informática,96.74
+Carmen,González,CTRL-0074,Seguridad Informática,87.13
+Luis,Gómez,CTRL-0075,Seguridad Informática,70.26
+Luis,Ruiz,CTRL-0076,Seguridad Informática,81.21
+Gabriela,Reyes,CTRL-0077,Seguridad Informática,74.46
+Fernando,Torres,CTRL-0078,Seguridad Informática,97.79
+Carmen,Cruz,CTRL-0079,Seguridad Informática,91.68
+Sofía,Hernández,CTRL-0080,Seguridad Informática,68.45
+Carmen,Cruz,CTRL-0081,Seguridad Informática,89.60
+Luis,Cruz,CTRL-0082,Seguridad Informática,66.26
+Ricardo,Gómez,CTRL-0083,Seguridad Informática,68.74
+Sofía,Rodríguez,CTRL-0084,Seguridad Informática,66.11
+Ana,Ruiz,CTRL-0085,Seguridad Informática,68.83
+Carmen,Morales,CTRL-0086,Seguridad Informática,95.00
+Alejandro,Ruiz,CTRL-0087,Seguridad Informática,79.82
+Gabriela,Ruiz,CTRL-0088,Seguridad Informática,78.94
+Fernando,Jiménez,CTRL-0089,Seguridad Informática,64.85
+Jorge,Gómez,CTRL-0090,Seguridad Informática,87.18
+Fernando,Cruz,CTRL-0091,Seguridad Informática,94.48
+Luis,López,CTRL-0092,Seguridad Informática,94.78
+Sofía,Martínez,CTRL-0093,Seguridad Informática,83.18
+Daniel,Cruz,CTRL-0094,Seguridad Informática,95.14
+Ana,Cruz,CTRL-0095,Seguridad Informática,83.75
+Ana,Cruz,CTRL-0096,Seguridad Informática,93.19
+María,Hernández,CTRL-0097,Seguridad Informática,88.29
+Ricardo,Reyes,CTRL-0098,Seguridad Informática,84.17
+Valeria,Pérez,CTRL-0099,Seguridad Informática,78.55
+María,Morales,CTRL-0100,Seguridad Informática,66.50
+Carlos,Hernández,CTRL-0001,Programación Web,68.60
+María,Gómez,CTRL-0002,Programación Web,77.50
+José,Martínez,CTRL-0003,Programación Web,84.74
+Daniel,Pérez,CTRL-0004,Programación Web,82.06
+Ricardo,González,CTRL-0005,Programación Web,79.87
+Valeria,Cruz,CTRL-0006,Programación Web,64.67
+Ana,López,CTRL-0007,Programación Web,74.13
+Gabriela,Ruiz,CTRL-0008,Programación Web,66.66
+Luis,González,CTRL-0009,Programación Web,63.63
+Valeria,Hernández,CTRL-0010,Programación Web,74.10
+Alejandro,Gómez,CTRL-0011,Programación Web,63.04
+Jorge,Jiménez,CTRL-0012,Programación Web,77.62
+Jorge,López,CTRL-0013,Programación Web,89.13
+Carlos,Torres,CTRL-0014,Programación Web,67.20
+José,Martínez,CTRL-0015,Programación Web,63.39
+Diana,Morales,CTRL-0016,Programación Web,90.65
+Carlos,Reyes,CTRL-0017,Programación Web,75.92
+Ana,Cruz,CTRL-0018,Programación Web,90.05
+María,Martínez,CTRL-0019,Programación Web,61.39
+María,Cruz,CTRL-0020,Programación Web,83.28
+Ana,Martínez,CTRL-0021,Programación Web,93.62
+Ana,González,CTRL-0022,Programación Web,82.37
+Sofía,Pérez,CTRL-0023,Programación Web,72.67
+Carmen,Hernández,CTRL-0024,Programación Web,74.17
+Carmen,Cruz,CTRL-0025,Programación Web,83.63
+Fernando,Martínez,CTRL-0026,Programación Web,89.32
+Alejandro,Martínez,CTRL-0027,Programación Web,93.42
+Luis,Ramírez,CTRL-0028,Programación Web,88.20
+José,González,CTRL-0029,Programación Web,89.57
+Carmen,Martínez,CTRL-0030,Programación Web,74.16
+Daniel,López,CTRL-0031,Programación Web,63.29
+José,Jiménez,CTRL-0032,Programación Web,70.39
+Sofía,Reyes,CTRL-0033,Programación Web,79.24
+Jorge,Gómez,CTRL-0034,Programación Web,65.48
+Carmen,Jiménez,CTRL-0035,Programación Web,63.16
+Valeria,Pérez,CTRL-0036,Programación Web,61.61
+Carmen,Flores,CTRL-0037,Programación Web,99.64
+Carmen,Gómez,CTRL-0038,Programación Web,75.16
+María,Ramírez,CTRL-0039,Programación Web,84.05
+Daniel,Morales,CTRL-0040,Programación Web,61.39
+Carlos,Cruz,CTRL-0041,Programación Web,66.58
+María,Cruz,CTRL-0042,Programación Web,90.74
+Sofía,Torres,CTRL-0043,Programación Web,73.18
+Alejandro,Cruz,CTRL-0044,Programación Web,68.54
+Fernando,Ramírez,CTRL-0045,Programación Web,85.85
+Jorge,Gómez,CTRL-0046,Programación Web,94.63
+Ricardo,Pérez,CTRL-0047,Programación Web,63.84
+Carmen,Gómez,CTRL-0048,Programación Web,96.19
+Diana,Reyes,CTRL-0049,Programación Web,92.06
+Ricardo,Morales,CTRL-0050,Programación Web,94.33
+Alejandro,López,CTRL-0051,Programación Web,69.03
+Daniel,González,CTRL-0052,Programación Web,90.16
+María,Rodríguez,CTRL-0053,Programación Web,92.97
+María,Hernández,CTRL-0054,Programación Web,99.98
+Sofía,López,CTRL-0055,Programación Web,87.08
+Sofía,Reyes,CTRL-0056,Programación Web,81.09
+Ana,Cruz,CTRL-0057,Programación Web,70.95
+José,Pérez,CTRL-0058,Programación Web,69.51
+Valeria,Pérez,CTRL-0059,Programación Web,64.51
+Ricardo,Martínez,CTRL-0060,Programación Web,77.49
+Carmen,Ruiz,CTRL-0061,Programación Web,75.23
+María,Ruiz,CTRL-0062,Programación Web,70.25
+Sofía,Morales,CTRL-0063,Programación Web,75.73
+Luis,Rodríguez,CTRL-0064,Programación Web,94.99
+Jorge,Jiménez,CTRL-0065,Programación Web,61.89
+Carlos,Martínez,CTRL-0066,Programación Web,99.21
+Gabriela,López,CTRL-0067,Programación Web,80.91
+Carlos,Hernández,CTRL-0068,Programación Web,96.07
+Sofía,Torres,CTRL-0069,Programación Web,80.73
+María,Ruiz,CTRL-0070,Programación Web,60.84
+Luis,Ramírez,CTRL-0071,Programación Web,86.78
+Valeria,Martínez,CTRL-0072,Programación Web,75.67
+Alejandro,Rodríguez,CTRL-0073,Programación Web,76.63
+Carmen,González,CTRL-0074,Programación Web,86.83
+Luis,Gómez,CTRL-0075,Programación Web,98.07
+Luis,Ruiz,CTRL-0076,Programación Web,93.04
+Gabriela,Reyes,CTRL-0077,Programación Web,95.95
+Fernando,Torres,CTRL-0078,Programación Web,95.34
+Carmen,Cruz,CTRL-0079,Programación Web,81.56
+Sofía,Hernández,CTRL-0080,Programación Web,88.50
+Carmen,Cruz,CTRL-0081,Programación Web,71.80
+Luis,Cruz,CTRL-0082,Programación Web,87.23
+Ricardo,Gómez,CTRL-0083,Programación Web,66.28
+Sofía,Rodríguez,CTRL-0084,Programación Web,73.72
+Ana,Ruiz,CTRL-0085,Programación Web,88.36
+Carmen,Morales,CTRL-0086,Programación Web,94.43
+Alejandro,Ruiz,CTRL-0087,Programación Web,88.77
+Gabriela,Ruiz,CTRL-0088,Programación Web,70.12
+Fernando,Jiménez,CTRL-0089,Programación Web,89.67
+Jorge,Gómez,CTRL-0090,Programación Web,97.84
+Fernando,Cruz,CTRL-0091,Programación Web,86.47
+Luis,López,CTRL-0092,Programación Web,73.68
+Sofía,Martínez,CTRL-0093,Programación Web,90.80
+Daniel,Cruz,CTRL-0094,Programación Web,72.35
+Ana,Cruz,CTRL-0095,Programación Web,62.61
+Ana,Cruz,CTRL-0096,Programación Web,86.21
+María,Hernández,CTRL-0097,Programación Web,64.17
+Ricardo,Reyes,CTRL-0098,Programación Web,84.61
+Valeria,Pérez,CTRL-0099,Programación Web,77.02
+María,Morales,CTRL-0100,Programación Web,65.39
+Carlos,Hernández,CTRL-0001,Bases de Datos,74.52
+María,Gómez,CTRL-0002,Bases de Datos,82.61
+José,Martínez,CTRL-0003,Bases de Datos,99.80
+Daniel,Pérez,CTRL-0004,Bases de Datos,98.19
+Ricardo,González,CTRL-0005,Bases de Datos,88.57
+Valeria,Cruz,CTRL-0006,Bases de Datos,63.90
+Ana,López,CTRL-0007,Bases de Datos,65.01
+Gabriela,Ruiz,CTRL-0008,Bases de Datos,75.94
+Luis,González,CTRL-0009,Bases de Datos,66.34
+Valeria,Hernández,CTRL-0010,Bases de Datos,81.59
+Alejandro,Gómez,CTRL-0011,Bases de Datos,74.41
+Jorge,Jiménez,CTRL-0012,Bases de Datos,89.90
+Jorge,López,CTRL-0013,Bases de Datos,82.28
+Carlos,Torres,CTRL-0014,Bases de Datos,68.72
+José,Martínez,CTRL-0015,Bases de Datos,75.77
+Diana,Morales,CTRL-0016,Bases de Datos,88.74
+Carlos,Reyes,CTRL-0017,Bases de Datos,84.61
+Ana,Cruz,CTRL-0018,Bases de Datos,73.50
+María,Martínez,CTRL-0019,Bases de Datos,78.20
+María,Cruz,CTRL-0020,Bases de Datos,99.64
+Ana,Martínez,CTRL-0021,Bases de Datos,60.40
+Ana,González,CTRL-0022,Bases de Datos,66.63
+Sofía,Pérez,CTRL-0023,Bases de Datos,62.55
+Carmen,Hernández,CTRL-0024,Bases de Datos,86.38
+Carmen,Cruz,CTRL-0025,Bases de Datos,81.81
+Fernando,Martínez,CTRL-0026,Bases de Datos,61.75
+Alejandro,Martínez,CTRL-0027,Bases de Datos,78.20
+Luis,Ramírez,CTRL-0028,Bases de Datos,88.22
+José,González,CTRL-0029,Bases de Datos,62.06
+Carmen,Martínez,CTRL-0030,Bases de Datos,75.51
+Daniel,López,CTRL-0031,Bases de Datos,67.72
+José,Jiménez,CTRL-0032,Bases de Datos,73.21
+Sofía,Reyes,CTRL-0033,Bases de Datos,95.57
+Jorge,Gómez,CTRL-0034,Bases de Datos,72.42
+Carmen,Jiménez,CTRL-0035,Bases de Datos,91.44
+Valeria,Pérez,CTRL-0036,Bases de Datos,79.07
+Carmen,Flores,CTRL-0037,Bases de Datos,69.30
+Carmen,Gómez,CTRL-0038,Bases de Datos,72.50
+María,Ramírez,CTRL-0039,Bases de Datos,80.14
+Daniel,Morales,CTRL-0040,Bases de Datos,70.88
+Carlos,Cruz,CTRL-0041,Bases de Datos,90.63
+María,Cruz,CTRL-0042,Bases de Datos,77.94
+Sofía,Torres,CTRL-0043,Bases de Datos,62.16
+Alejandro,Cruz,CTRL-0044,Bases de Datos,65.43
+Fernando,Ramírez,CTRL-0045,Bases de Datos,96.27
+Jorge,Gómez,CTRL-0046,Bases de Datos,91.89
+Ricardo,Pérez,CTRL-0047,Bases de Datos,73.01
+Carmen,Gómez,CTRL-0048,Bases de Datos,82.81
+Diana,Reyes,CTRL-0049,Bases de Datos,73.52
+Ricardo,Morales,CTRL-0050,Bases de Datos,98.23
+Alejandro,López,CTRL-0051,Bases de Datos,92.99
+Daniel,González,CTRL-0052,Bases de Datos,63.99
+María,Rodríguez,CTRL-0053,Bases de Datos,98.59
+María,Hernández,CTRL-0054,Bases de Datos,93.36
+Sofía,López,CTRL-0055,Bases de Datos,98.99
+Sofía,Reyes,CTRL-0056,Bases de Datos,96.97
+Ana,Cruz,CTRL-0057,Bases de Datos,77.03
+José,Pérez,CTRL-0058,Bases de Datos,91.31
+Valeria,Pérez,CTRL-0059,Bases de Datos,66.92
+Ricardo,Martínez,CTRL-0060,Bases de Datos,61.12
+Carmen,Ruiz,CTRL-0061,Bases de Datos,94.93
+María,Ruiz,CTRL-0062,Bases de Datos,76.22
+Sofía,Morales,CTRL-0063,Bases de Datos,87.26
+Luis,Rodríguez,CTRL-0064,Bases de Datos,63.68
+Jorge,Jiménez,CTRL-0065,Bases de Datos,81.77
+Carlos,Martínez,CTRL-0066,Bases de Datos,71.79
+Gabriela,López,CTRL-0067,Bases de Datos,82.72
+Carlos,Hernández,CTRL-0068,Bases de Datos,64.38
+Sofía,Torres,CTRL-0069,Bases de Datos,81.40
+María,Ruiz,CTRL-0070,Bases de Datos,81.00
+Luis,Ramírez,CTRL-0071,Bases de Datos,61.67
+Valeria,Martínez,CTRL-0072,Bases de Datos,70.22
+Alejandro,Rodríguez,CTRL-0073,Bases de Datos,70.41
+Carmen,González,CTRL-0074,Bases de Datos,62.63
+Luis,Gómez,CTRL-0075,Bases de Datos,66.46
+Luis,Ruiz,CTRL-0076,Bases de Datos,82.17
+Gabriela,Reyes,CTRL-0077,Bases de Datos,78.12
+Fernando,Torres,CTRL-0078,Bases de Datos,95.03
+Carmen,Cruz,CTRL-0079,Bases de Datos,70.89
+Sofía,Hernández,CTRL-0080,Bases de Datos,83.73
+Carmen,Cruz,CTRL-0081,Bases de Datos,60.19
+Luis,Cruz,CTRL-0082,Bases de Datos,63.52
+Ricardo,Gómez,CTRL-0083,Bases de Datos,70.91
+Sofía,Rodríguez,CTRL-0084,Bases de Datos,85.41
+Ana,Ruiz,CTRL-0085,Bases de Datos,77.32
+Carmen,Morales,CTRL-0086,Bases de Datos,92.35
+Alejandro,Ruiz,CTRL-0087,Bases de Datos,94.11
+Gabriela,Ruiz,CTRL-0088,Bases de Datos,95.26
+Fernando,Jiménez,CTRL-0089,Bases de Datos,70.84
+Jorge,Gómez,CTRL-0090,Bases de Datos,62.91
+Fernando,Cruz,CTRL-0091,Bases de Datos,91.05
+Luis,López,CTRL-0092,Bases de Datos,79.84
+Sofía,Martínez,CTRL-0093,Bases de Datos,61.91
+Daniel,Cruz,CTRL-0094,Bases de Datos,64.40
+Ana,Cruz,CTRL-0095,Bases de Datos,88.94
+Ana,Cruz,CTRL-0096,Bases de Datos,99.25
+María,Hernández,CTRL-0097,Bases de Datos,97.55
+Ricardo,Reyes,CTRL-0098,Bases de Datos,68.12
+Valeria,Pérez,CTRL-0099,Bases de Datos,89.81
+María,Morales,CTRL-0100,Bases de Datos,83.41
+Carlos,Hernández,CTRL-0001,Inteligencia Artificial,61.63
+María,Gómez,CTRL-0002,Inteligencia Artificial,99.50
+José,Martínez,CTRL-0003,Inteligencia Artificial,70.07
+Daniel,Pérez,CTRL-0004,Inteligencia Artificial,92.72
+Ricardo,González,CTRL-0005,Inteligencia Artificial,87.78
+Valeria,Cruz,CTRL-0006,Inteligencia Artificial,69.45
+Ana,López,CTRL-0007,Inteligencia Artificial,81.94
+Gabriela,Ruiz,CTRL-0008,Inteligencia Artificial,87.67
+Luis,González,CTRL-0009,Inteligencia Artificial,96.36
+Valeria,Hernández,CTRL-0010,Inteligencia Artificial,96.71
+Alejandro,Gómez,CTRL-0011,Inteligencia Artificial,71.20
+Jorge,Jiménez,CTRL-0012,Inteligencia Artificial,79.43
+Jorge,López,CTRL-0013,Inteligencia Artificial,64.94
+Carlos,Torres,CTRL-0014,Inteligencia Artificial,85.91
+José,Martínez,CTRL-0015,Inteligencia Artificial,87.63
+Diana,Morales,CTRL-0016,Inteligencia Artificial,96.60
+Carlos,Reyes,CTRL-0017,Inteligencia Artificial,75.57
+Ana,Cruz,CTRL-0018,Inteligencia Artificial,79.45
+María,Martínez,CTRL-0019,Inteligencia Artificial,96.09
+María,Cruz,CTRL-0020,Inteligencia Artificial,85.68
+Ana,Martínez,CTRL-0021,Inteligencia Artificial,75.07
+Ana,González,CTRL-0022,Inteligencia Artificial,79.74
+Sofía,Pérez,CTRL-0023,Inteligencia Artificial,81.51
+Carmen,Hernández,CTRL-0024,Inteligencia Artificial,78.47
+Carmen,Cruz,CTRL-0025,Inteligencia Artificial,91.79
+Fernando,Martínez,CTRL-0026,Inteligencia Artificial,73.98
+Alejandro,Martínez,CTRL-0027,Inteligencia Artificial,95.96
+Luis,Ramírez,CTRL-0028,Inteligencia Artificial,72.76
+José,González,CTRL-0029,Inteligencia Artificial,84.61
+Carmen,Martínez,CTRL-0030,Inteligencia Artificial,68.38
+Daniel,López,CTRL-0031,Inteligencia Artificial,76.20
+José,Jiménez,CTRL-0032,Inteligencia Artificial,66.95
+Sofía,Reyes,CTRL-0033,Inteligencia Artificial,90.11
+Jorge,Gómez,CTRL-0034,Inteligencia Artificial,73.62
+Carmen,Jiménez,CTRL-0035,Inteligencia Artificial,67.28
+Valeria,Pérez,CTRL-0036,Inteligencia Artificial,83.43
+Carmen,Flores,CTRL-0037,Inteligencia Artificial,79.48
+Carmen,Gómez,CTRL-0038,Inteligencia Artificial,69.64
+María,Ramírez,CTRL-0039,Inteligencia Artificial,62.90
+Daniel,Morales,CTRL-0040,Inteligencia Artificial,71.39
+Carlos,Cruz,CTRL-0041,Inteligencia Artificial,94.55
+María,Cruz,CTRL-0042,Inteligencia Artificial,76.00
+Sofía,Torres,CTRL-0043,Inteligencia Artificial,90.34
+Alejandro,Cruz,CTRL-0044,Inteligencia Artificial,64.94
+Fernando,Ramírez,CTRL-0045,Inteligencia Artificial,63.52
+Jorge,Gómez,CTRL-0046,Inteligencia Artificial,88.23
+Ricardo,Pérez,CTRL-0047,Inteligencia Artificial,76.42
+Carmen,Gómez,CTRL-0048,Inteligencia Artificial,60.33
+Diana,Reyes,CTRL-0049,Inteligencia Artificial,66.78
+Ricardo,Morales,CTRL-0050,Inteligencia Artificial,95.19
+Alejandro,López,CTRL-0051,Inteligencia Artificial,62.68
+Daniel,González,CTRL-0052,Inteligencia Artificial,79.02
+María,Rodríguez,CTRL-0053,Inteligencia Artificial,86.75
+María,Hernández,CTRL-0054,Inteligencia Artificial,87.59
+Sofía,López,CTRL-0055,Inteligencia Artificial,87.12
+Sofía,Reyes,CTRL-0056,Inteligencia Artificial,85.66
+Ana,Cruz,CTRL-0057,Inteligencia Artificial,73.77
+José,Pérez,CTRL-0058,Inteligencia Artificial,78.34
+Valeria,Pérez,CTRL-0059,Inteligencia Artificial,88.70
+Ricardo,Martínez,CTRL-0060,Inteligencia Artificial,91.00
+Carmen,Ruiz,CTRL-0061,Inteligencia Artificial,97.57
+María,Ruiz,CTRL-0062,Inteligencia Artificial,90.24
+Sofía,Morales,CTRL-0063,Inteligencia Artificial,99.01
+Luis,Rodríguez,CTRL-0064,Inteligencia Artificial,97.45
+Jorge,Jiménez,CTRL-0065,Inteligencia Artificial,64.52
+Carlos,Martínez,CTRL-0066,Inteligencia Artificial,74.83
+Gabriela,López,CTRL-0067,Inteligencia Artificial,99.73
+Carlos,Hernández,CTRL-0068,Inteligencia Artificial,66.23
+Sofía,Torres,CTRL-0069,Inteligencia Artificial,86.63
+María,Ruiz,CTRL-0070,Inteligencia Artificial,89.61
+Luis,Ramírez,CTRL-0071,Inteligencia Artificial,85.40
+Valeria,Martínez,CTRL-0072,Inteligencia Artificial,91.68
+Alejandro,Rodríguez,CTRL-0073,Inteligencia Artificial,68.28
+Carmen,González,CTRL-0074,Inteligencia Artificial,63.82
+Luis,Gómez,CTRL-0075,Inteligencia Artificial,88.48
+Luis,Ruiz,CTRL-0076,Inteligencia Artificial,92.80
+Gabriela,Reyes,CTRL-0077,Inteligencia Artificial,76.76
+Fernando,Torres,CTRL-0078,Inteligencia Artificial,73.40
+Carmen,Cruz,CTRL-0079,Inteligencia Artificial,83.81
+Sofía,Hernández,CTRL-0080,Inteligencia Artificial,97.90
+Carmen,Cruz,CTRL-0081,Inteligencia Artificial,75.74
+Luis,Cruz,CTRL-0082,Inteligencia Artificial,89.13
+Ricardo,Gómez,CTRL-0083,Inteligencia Artificial,61.93
+Sofía,Rodríguez,CTRL-0084,Inteligencia Artificial,95.77
+Ana,Ruiz,CTRL-0085,Inteligencia Artificial,86.92
+Carmen,Morales,CTRL-0086,Inteligencia Artificial,89.09
+Alejandro,Ruiz,CTRL-0087,Inteligencia Artificial,84.50
+Gabriela,Ruiz,CTRL-0088,Inteligencia Artificial,77.14
+Fernando,Jiménez,CTRL-0089,Inteligencia Artificial,72.87
+Jorge,Gómez,CTRL-0090,Inteligencia Artificial,75.19
+Fernando,Cruz,CTRL-0091,Inteligencia Artificial,79.78
+Luis,López,CTRL-0092,Inteligencia Artificial,90.98
+Sofía,Martínez,CTRL-0093,Inteligencia Artificial,66.86
+Daniel,Cruz,CTRL-0094,Inteligencia Artificial,95.42
+Ana,Cruz,CTRL-0095,Inteligencia Artificial,66.04
+Ana,Cruz,CTRL-0096,Inteligencia Artificial,64.20
+María,Hernández,CTRL-0097,Inteligencia Artificial,70.26
+Ricardo,Reyes,CTRL-0098,Inteligencia Artificial,78.44
+Valeria,Pérez,CTRL-0099,Inteligencia Artificial,65.92
+María,Morales,CTRL-0100,Inteligencia Artificial,75.18

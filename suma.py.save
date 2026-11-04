@@ -1,0 +1,25 @@
+    return sum(datos) / len(datos)
+
+
+def f1(X: list[float]) -> float:
+    r"""Calcula la suma de los cuadrados de las desviaciones respecto a la media: f_1 = \sum (X - \bar{X})^2."""
+    media_x = f0(X)
+    return sum((x - media_x) ** 2 for x in X)
+
+
+def f2(X: list[float], Y: list[float]) -> float:
+    r"""Calcula la suma de los productos cruzados de las desviaciones respecto a sus medias: f_2 = \sum (X - \bar{X})(Y - \bar{Y})."""
+    media_x = f0(X)
+    media_y = f0(Y)
+    return sum((x - media_x) * (y - media_y) for x, y in zip(X, Y))
+
+
+media_Y = f0(Y)
+suma_cuadrados_X = f1(X)
+suma_productos = f2(X, Y)
+
+print(f"f0 (Media de Y): {media_Y}")  # Resultado: 7.0
+print(f"f1 (Suma de cuadrados de X): {suma_cuadrados_X}")  # Resultado: 10.0
+print(f"f2 (Suma de productos cruzados): {suma_productos}")  # Resultado: 12.5
+
+
